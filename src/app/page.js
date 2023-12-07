@@ -50,7 +50,7 @@ export default function Home() {
               title={'Tour guide and consultant'}
               image={'/img/teams.jpg'}
               desc={'Occaecat incididunt sit amet nisi veniam pariatur in esse.  Consequat nisi veniam in in veniam sint in ipsum veniam anim cupidatat dolor. Ex non nulla irure mollit laboris sit esse est.'}
-              ctaLabel={'contant us'}
+              ctaLabel={'contact us'}
               ctaURL={'/contact-us'}
               textCtaLabel={'Or check the testimonials'}
               textCtaURL={'/testimonials'}
