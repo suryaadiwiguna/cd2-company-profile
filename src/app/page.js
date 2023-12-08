@@ -3,8 +3,34 @@ import Hero from "@/components/Hero";
 import C_Card from "@/components/card/C_Card";
 import C_Container from "@/components/layout/C_Container";
 import C_Section from "@/components/layout/C_Section";
-import { Flex } from "@chakra-ui/react";
+import { Flex, Heading } from "@chakra-ui/react";
 import C_CardProduct from "@/components/card/C_CardProduct";
+import C_CardPerson from "@/components/card/C_CardPerson";
+
+const data = [
+  {
+    name: 'Surya Adi Wiguna',
+    profileImg: '/img/teams.jpg',
+    origin: {
+      city: 'Sukabumi',
+      country: 'Indonesia'
+    },
+    quote: "Elit incididunt laborum cupidatat velit enim nulla esse excepteur fugiat. Aliqua pariatur reprehenderit eu enim nisi eiusmod cillum consectetur velit. Incididunt amet nostrud aliquip excepteur aute amet ex enim laboris adipisicing mollit in anim.",
+    order: "Bangkok, Thailand tour, family package, 7 days"
+
+  },
+  {
+    name: 'John Doe',
+    profileImg: '/img/teams.jpg',
+    origin: {
+      city: 'Hanoi',
+      country: 'Vietnam'
+    },
+    quote: "Elit incididunt laborum cupidatat velit enim nulla esse excepteur fugiat. Aliqua pariatur reprehenderit eu enim nisi eiusmod cillum consectetur velit. Incididunt amet nostrud aliquip excepteur aute amet ex enim laboris adipisicing mollit in anim.",
+    order: "Bali, Thailand tour, couple package, 4 days"
+
+  }
+]
 
 export default function Home() {
   return (
@@ -45,6 +71,7 @@ export default function Home() {
 
       <C_Container bgImage="/img/image1.jpg">
         <C_Section>
+          <Heading color={'white'} my={'1em'} textAlign={'center'}>Our Products And Service</Heading>
           <Flex gap={'3em'} direction={{ base: 'column', md: 'row' }}>
             <C_CardProduct
               title={'Tour guide and consultant'}
@@ -63,6 +90,13 @@ export default function Home() {
               ctaURL={'https://www.tokopedia.com'}
             />
           </Flex>
+        </C_Section>
+      </C_Container>
+
+      <C_Container>
+        <C_Section>
+          <Heading textAlign={'center'} my={'1em'}>Testimonials</Heading>
+          <C_CardPerson data={data} />
         </C_Section>
       </C_Container>
 

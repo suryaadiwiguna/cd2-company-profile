@@ -1,11 +1,11 @@
-import { Box, Image, Heading, Text, Divider, Button, Flex } from "@chakra-ui/react"
+import { Box, Heading, Text, Divider, Button, Flex } from "@chakra-ui/react"
 import Link from "next/link"
 
 export default function C_CardProduct({ title, image, ctaLabel, ctaURL, textCtaLabel, textCtaURL, desc }) {
     return (
         <Box maxW={{ base: 'full', lg: 'fit-content' }} bgColor={'white'} p={'2em'} borderRadius={'10px'} textAlign={'center'} >
             <Flex direction={{ base: 'column' }} gap={'2em'} justify={'center'}>
-                <Heading fontSize={'x-large'} textTransform={'capitalize'}>{title}</Heading>
+                <Heading fontSize={'large'} textTransform={'capitalize'}>{title}</Heading>
                 <Flex direction={'column'} gap={'1em'} alignItems={'center'} >
                     <Box w={'full'} h={{ base: '200px', sm: '360px', lg: '260px' }} bgImage={image} bgSize={'cover'} bgPosition={'center'} />
                     <Text>{desc}</Text>
