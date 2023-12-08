@@ -16,7 +16,7 @@ export default function C_CardPerson({ data }) {
                         <Flex align={'center'} justify={'center'} direction={'column'} textAlign={'center'} p={'1em'}>
                             <Heading fontSize={'large'} textTransform={'capitalize'} color={'#FF7757'}>{data.name}</Heading>
                             <Text fontStyle={'italic'}>{` ${data.origin.city || data.origin.country ? 'From' : null}  ${data.origin.city ? data.origin.city + "," : null} ${data.origin.country ? data.origin.country : null}`}</Text>
-                            <Text my={'1em'} fontWeight={'600'} >"{data.quote}"</Text>
+                            <Text my={'1em'} fontWeight={'600'} >{`"${data.quote}"`}</Text>
                             <Divider mb={'1em'} />
                             <Text fontStyle={'italic'} textTransform={'capitalize'}>{data.order ? "Purchased: " + data.order : null}</Text>
                         </Flex>
