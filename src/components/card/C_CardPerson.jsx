@@ -8,8 +8,8 @@ export default function C_CardPerson({ data }) {
     return (
         <>
             <Flex gap={'4em'} direction={{ base: 'column', md: 'row' }}>
-                {data.map((data) => (
-                    <Box borderRadius={'15px'} maxW={'310px'} bgColor={'white'} overflow={'hidden'} boxShadow={'base'}>
+                {data.map((data, index) => (
+                    <Box key={index} borderRadius={'15px'} maxW={'310px'} bgColor={'white'} overflow={'hidden'} boxShadow={'base'}>
                         <Flex p={'1em'} h={'240px'} w={'full'} align={'center'} justify={'center'}>
                             <Image src={data.profileImg} borderRadius={'50%'} objectFit={'cover'} aspectRatio={1 / 1} maxH={'180px'} />
                         </Flex>
