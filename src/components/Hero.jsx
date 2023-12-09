@@ -6,7 +6,7 @@ export default function Hero(props) {
 
     return (
         <>
-            <Box pt={'6em'} minH={'340px'} h={'fit-content'} bg={'grey'} px={'2em'} bgPosition={'center'} bgImage={bgImage ? bgImage : null} bgColor={'black'} color={'white'} backgroundSize={'cover'} position={'relative'} alignItems={'center'}>
+            <Box pt={'6em'} minH={'340px'} h={'fit-content'} bg={'grey'} px={'2em'} bgImage={bgImage ? bgImage : null} bgColor={'black'} color={'white'} bgPosition={'center'} backgroundSize={'cover'} position={'relative'} alignItems={'center'}>
                 <Flex flexDirection={'column'} justifyContent={'space-around'} gap={'60px'} maxWidth={'1024px'} mx={'auto'} py={'3em'}>
                     <Box zIndex={2} >
 

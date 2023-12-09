@@ -9,7 +9,7 @@ export default function Navbar() {
             <Flex px={'30px'} h={'inherit'} maxW={'1024px'} marginX={'auto'} align={'center'} >
                 <Box>
                     <Link href={"/"}>
-                        <Image src="/logo.svg" boxSize={'130px'}></Image>
+                        <Image src="/logo.svg" boxSize={'130px'} alt=""></Image>
                     </Link>
                 </Box>
                 <Spacer />

@@ -6,6 +6,7 @@ import C_Section from "@/components/layout/C_Section";
 import { Flex, Heading } from "@chakra-ui/react";
 import C_CardProduct from "@/components/card/C_CardProduct";
 import C_CardPerson from "@/components/card/C_CardPerson";
+import C_Slider from "@/components/layout/C_Slider";
 
 const data = [
   {
@@ -45,7 +46,7 @@ export default function Home() {
         <C_Section>
           <Flex bg={'transparent'} direction={{ base: 'column', md: 'row' }} gap={{ base: '1em', lg: '10em' }}>
             <C_Card
-              title="How we see the world"
+              title="Our History"
               briefDesc={"Velit quis reprehenderit officia nostrud eiusmod voluptate culpa magna ea Lorem anim velit magna nostrud. Adipisicing fugiat fugiat ipsum cupidatat nostrud velit enim nisi amet occaecat. "}
               ctaLabel={'Learn more'}
               ctaURL={'/about-us'}
@@ -93,12 +94,16 @@ export default function Home() {
         </C_Section>
       </C_Container>
 
-      <C_Container>
+      <C_Container bgColor={'gray'}>
         <C_Section>
-          <Heading textAlign={'center'} my={'1em'}>Testimonials</Heading>
+          <Heading textAlign={'center'} mt={'1rem'}>Testimonials</Heading>
           <C_CardPerson data={data} />
         </C_Section>
       </C_Container>
+
+
+
+
 
     </>
   )
