@@ -74,16 +74,16 @@ export default function Home() {
 
       <C_Container bgImage="/img/image1.jpg">
         <C_Section>
-          <Heading color={'white'} my={'1em'} textAlign={'center'}>Our Products And Service</Heading>
+          <Heading color={'white'} my={'1em'} textAlign={'center'}>Our Products And Services</Heading>
           <Flex gap={'3em'} direction={{ base: 'column', md: 'row' }}>
             <C_CardProduct
-              title={'Tour guide and consultant'}
+              title={'Travel Agency And Consultation'}
               image={'/img/teams.jpg'}
               desc={'Occaecat incididunt sit amet nisi veniam pariatur in esse.  Consequat nisi veniam in in veniam sint in ipsum veniam anim cupidatat dolor. Ex non nulla irure mollit laboris sit esse est.'}
-              ctaLabel={'contact us'}
-              ctaURL={'/contact-us'}
+              ctaLabel={'Check the offer'}
+              ctaURL={'/products-services'}
               textCtaLabel={'Or check the testimonials'}
-              textCtaURL={'/testimonials'}
+              textCtaURL={'#'}
             />
             <C_CardProduct
               title={'Outdoor and traveling equipment'}
