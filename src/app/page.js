@@ -3,10 +3,11 @@ import Hero from "@/components/Hero";
 import C_Card from "@/components/card/C_Card";
 import C_Container from "@/components/layout/C_Container";
 import C_Section from "@/components/layout/C_Section";
-import { Flex, Heading } from "@chakra-ui/react";
+import { Flex, Heading, Box } from "@chakra-ui/react";
 import C_CardProduct from "@/components/card/C_CardProduct";
 import C_CardPerson from "@/components/card/C_CardPerson";
-import C_Slider from "@/components/layout/C_Slider";
+
+
 
 const data = [
   {
@@ -34,6 +35,7 @@ const data = [
 ]
 
 export default function Home() {
+
   return (
     <>
       <Hero
@@ -98,6 +100,7 @@ export default function Home() {
         <C_Section>
           <Heading textAlign={'center'} mt={'1rem'}>Testimonials</Heading>
           <C_CardPerson data={data} />
+          <Box mb={'6rem'}></Box>
         </C_Section>
       </C_Container>
 

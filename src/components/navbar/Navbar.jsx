@@ -8,7 +8,7 @@ export default function Navbar() {
         <Box w={'100%'} h={'4em'} color={'white'} bg={'transparent'} position={'absolute'} top={0} zIndex={999} >
             <Flex px={'30px'} h={'inherit'} maxW={'1024px'} marginX={'auto'} align={'center'} >
                 <Box>
-                    <Link href={"/"}>
+                    <Link href={"/"} alt="">
                         <Image src="/logo.svg" boxSize={'130px'} alt=""></Image>
                     </Link>
                 </Box>

@@ -31,7 +31,7 @@ export default function C_CardPerson({ data }) {
                                 <Text fontStyle={'italic'}>{` ${data.origin.city || data.origin.country ? 'From' : null}  ${data.origin.city ? data.origin.city + "," : null} ${data.origin.country ? data.origin.country : null}`}</Text>
                                 <Text my={'1em'} fontWeight={'600'} >{`"${data.quote}"`}</Text>
                                 <Divider mb={'1em'} />
-                                <Text fontStyle={'italic'} textTransform={'capitalize'}>{data.order ? "Purchased: " + data.order : null}</Text>
+                                <Text fontStyle={'italic'} textTransform={'capitalize'}>{data.order ? data.order : null}</Text>
                             </Flex>
                         </Box>
                     ))}
