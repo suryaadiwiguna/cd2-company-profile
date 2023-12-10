@@ -18,7 +18,7 @@ export default async function C_Teams() {
     return (
         <>
             {teams.map((team) => (
-                <Box minW={'200px'} maxW={'360px'} bg={'white'} borderRadius={'15px'} overflow={'hidden'} textAlign={'center'} boxShadow={'lg'}>
+                <Box key={team.sys?.id} minW={'200px'} maxW={'360px'} bg={'white'} borderRadius={'15px'} overflow={'hidden'} textAlign={'center'} boxShadow={'lg'}>
 
                     <Flex p={'1em'} h={'240px'} align={'center'} justify={'center'} bg={'#FF7757'}>
                         <Image alt="" src={team.fields.profilePicture?.fields.file.url} borderRadius={'50%'} objectFit={'cover'} aspectRatio={1 / 1} maxH={'180px'} />
