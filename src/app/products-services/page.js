@@ -10,7 +10,7 @@ export default function Page() {
         <>
             <Hero
                 bgImage="/img/products-services.jpg"
-                heading="We offer quality"
+                heading="We offer high quality service and products"
             />
             <C_Container>
                 <C_Section>
@@ -33,3 +33,4 @@ export default function Page() {
         </>
     )
 }
+

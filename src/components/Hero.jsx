@@ -10,7 +10,7 @@ export default function Hero(props) {
                 <Flex flexDirection={'column'} justifyContent={'space-around'} gap={'60px'} maxWidth={'1024px'} mx={'auto'} py={'3em'}>
                     <Box zIndex={2} >
 
-                        <Heading my={'0.5em'}>{heading}</Heading>
+                        <Heading my={'0.5em'} textTransform={'capitalize'}>{heading}</Heading>
                         {subtitle && <Text>{subtitle}</Text>}
 
                     </Box>
