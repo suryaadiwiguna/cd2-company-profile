@@ -36,7 +36,7 @@ export default function Page() {
                             <b>2023 and Beyond: A Continued Odyssey</b><br />
                             Entering our second decade, our journey is far from over. We remain dedicated to creating meaningful connections between people and places. Sustainability and responsible travel practices now take center stage, aligning with the evolving preferences of conscientious travelers like you.<br /> <br />
 
-                            With a legacy built on passion, innovation, and a deep love for travel, [Travel Agency Name] continues to inspire wanderlust. Join us as we turn each trip into a chapter of your lifelong adventure.
+                            With a legacy built on passion, innovation, and a deep love for travel, Travellian continues to inspire wanderlust. Join us as we turn each trip into a chapter of your lifelong adventure.
                         </Text>
                     </Flex >
                 </C_Section>

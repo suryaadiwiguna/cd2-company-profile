@@ -17,7 +17,7 @@ const data = [
       city: 'Sukabumi',
       country: 'Indonesia'
     },
-    quote: "Elit incididunt laborum cupidatat velit enim nulla esse excepteur fugiat. Aliqua pariatur reprehenderit eu enim nisi eiusmod cillum consectetur velit. Incididunt amet nostrud aliquip excepteur aute amet ex enim laboris adipisicing mollit in anim.",
+    quote: "Unforgettable experiences! Travellian curated a seamless adventure, from breathtaking destinations to personalized details.A journey beyond expectations!",
     order: "Bangkok, Thailand tour, family package, 7 days"
 
   },
@@ -28,7 +28,7 @@ const data = [
       city: 'Hanoi',
       country: 'Vietnam'
     },
-    quote: "Elit incididunt laborum cupidatat velit enim nulla esse excepteur fugiat. Aliqua pariatur reprehenderit eu enim nisi eiusmod cillum consectetur velit. Incididunt amet nostrud aliquip excepteur aute amet ex enim laboris adipisicing mollit in anim.",
+    quote: "Exceptional service! Travellian orchestrated a perfect getaway. Impeccable planning, stunning locations, and seamless execution. Truly the architects of dream vacations!",
     order: "Bali, Thailand tour, couple package, 4 days"
 
   }
@@ -49,7 +49,7 @@ export default function Home() {
           <Flex bg={'transparent'} direction={{ base: 'column', md: 'row' }} gap={{ base: '1em', lg: '10em' }}>
             <C_Card
               title="Our History"
-              briefDesc={"Velit quis reprehenderit officia nostrud eiusmod voluptate culpa magna ea Lorem anim velit magna nostrud. Adipisicing fugiat fugiat ipsum cupidatat nostrud velit enim nisi amet occaecat. "}
+              briefDesc={"In 2010, we embarked on a journey to turn travel dreams into reality. Our travel agency started with a modest office, a dedicated team, and a commitment to personalized service. We quickly gained recognition for curating bespoke itineraries and delivering unparalleled experiences, making a mark in the dynamic world of travel. "}
               ctaLabel={'Learn more'}
               ctaURL={'/about-us'}
             />
@@ -58,13 +58,13 @@ export default function Home() {
           <Flex bg={'transparent'} direction={{ base: 'column', md: 'row' }} gap={{ base: '1em', lg: '10em' }}>
             <C_Card
               title="We are passionate adventurers"
-              briefDesc={"Velit quis reprehenderit officia nostrud eiusmod voluptate culpa magna ea Lorem anim velit magna nostrud. Adipisicing fugiat fugiat ipsum cupidatat nostrud velit enim nisi amet occaecat. "}
+              briefDesc={"We remain dedicated to creating meaningful connections between people and places. Sustainability and responsible travel practices now take center stage, aligning with the evolving preferences of conscientious travelers like you. "}
               ctaLabel={'Learn more'}
               ctaURL={'/teams'}
             />
             <C_Card
               title="Our culture: We respect cultures"
-              briefDesc={"Velit quis reprehenderit officia nostrud eiusmod voluptate culpa magna ea Lorem anim velit magna nostrud. Adipisicing fugiat fugiat ipsum cupidatat nostrud velit enim nisi amet occaecat. "}
+              briefDesc={"With a legacy built on passion, innovation, and a deep love for travel, we continues to inspire wanderlust. Join us as we turn each trip into a chapter of your lifelong adventure. "}
               ctaLabel={'Learn more'}
               ctaURL={'/about-us'}
             />
@@ -79,7 +79,7 @@ export default function Home() {
             <C_CardProduct
               title={'Travel Agency And Consultation'}
               image={'/img/teams.jpg'}
-              desc={'Occaecat incididunt sit amet nisi veniam pariatur in esse.  Consequat nisi veniam in in veniam sint in ipsum veniam anim cupidatat dolor. Ex non nulla irure mollit laboris sit esse est.'}
+              desc={'Embark on a journey of a lifetime with us! Explore exotic destinations, indulge in thrilling adventures, and create unforgettable memories. Let us turn your travel dreams into reality.'}
               ctaLabel={'Check the offer'}
               ctaURL={'/products-services'}
               textCtaLabel={'Or check the testimonials'}
@@ -88,7 +88,7 @@ export default function Home() {
             <C_CardProduct
               title={'Outdoor and traveling equipment'}
               image={'/img/product/outdoor-equipment.jpg'}
-              desc={'Occaecat incididunt sit amet nisi veniam pariatur in esse.  Consequat nisi veniam in in veniam sint in ipsum veniam anim cupidatat dolor. Ex non nulla irure mollit laboris sit esse est.'}
+              desc={"Elevate your outdoor experience with our premium equipment. Gear up for exploration and embrace the great outdoors with confidence and style."}
               ctaLabel={'Go to the shop'}
               ctaURL={'https://www.tokopedia.com'}
             />
