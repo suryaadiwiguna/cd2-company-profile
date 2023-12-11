@@ -9,7 +9,7 @@ export default function Navbar() {
             <Flex px={'30px'} h={'inherit'} maxW={'1024px'} marginX={'auto'} align={'center'} >
                 <Box>
                     <Link href={"/"} aria-label="Travellian logo">
-                        <Image src="/logo.svg" boxSize={'130px'} alt=""></Image>
+                        <Image src="/logo.svg" w={'130px'} alt=""></Image>
                     </Link>
                 </Box>
                 <Spacer />

@@ -21,7 +21,7 @@ export default async function C_Teams() {
                 <Box key={team.sys?.id} minW={'200px'} maxW={'360px'} bg={'white'} borderRadius={'15px'} overflow={'hidden'} textAlign={'center'} boxShadow={'lg'}>
 
                     <Flex p={'1em'} h={'240px'} align={'center'} justify={'center'} bg={'#FF7757'}>
-                        <Image alt="" src={team.fields.profilePicture?.fields.file.url} borderRadius={'50%'} objectFit={'cover'} aspectRatio={1 / 1} maxH={'180px'} />
+                        <Image alt="" src={team.fields.profilePicture?.fields.file.url} borderRadius={'50%'} objectFit={'cover'} h={'180px'} w={'180px'} />
                     </Flex>
 
                     <Flex direction={'column'} gap={'1rem'} px={'1rem'} py={'2rem'}>
