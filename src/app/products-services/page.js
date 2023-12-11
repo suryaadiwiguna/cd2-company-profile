@@ -26,7 +26,7 @@ export default function Page() {
                 <C_Section>
                     <Heading textAlign={'center'} my={'4rem'}>Travel And Outdoor Equipment</Heading>
                     <Flex textAlign={'center'} gap={'2rem'} direction={'column'} mb={'6rem'} align={'center'}>
-                        <Box bgImage={'/img/product/tent.jpg'} bgSize={'cover'} bgPosition={'center'} height={'inherit'} minH={'300px'} minW={'300px'} maxW={'360px'} borderRadius={'10px'} />
+                        <Box bgImage={'/img/product/outdoor-equipment.jpg'} bgSize={'cover'} bgPosition={'center'} height={'inherit'} minH={'300px'} minW={'300px'} maxW={'360px'} borderRadius={'10px'} />
                         <Text>We sell and rent travel and outdoor equipments. Check out our store to explore.</Text>
                         <Link alt="shop link" href={'https://www.tokopedia.com'}> <Button color={'white'} bgColor={'#FF7757'} w={'full'} colorScheme={'orange'}> Check The Store</Button></Link>
                     </Flex>

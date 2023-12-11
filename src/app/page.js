@@ -87,7 +87,7 @@ export default function Home() {
             />
             <C_CardProduct
               title={'Outdoor and traveling equipment'}
-              image={'/img/products-services.jpg'}
+              image={'/img/product/outdoor-equipment.jpg'}
               desc={'Occaecat incididunt sit amet nisi veniam pariatur in esse.  Consequat nisi veniam in in veniam sint in ipsum veniam anim cupidatat dolor. Ex non nulla irure mollit laboris sit esse est.'}
               ctaLabel={'Go to the shop'}
               ctaURL={'https://www.tokopedia.com'}
