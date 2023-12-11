@@ -1,7 +1,7 @@
-import Hero from "@/components/Hero";
+import Hero from "@/components/layout/Hero";
 import C_Container from "@/components/layout/C_Container";
 import C_Section from "@/components/layout/C_Section";
-import { Box, Heading, Image, Flex, Text } from "@chakra-ui/react";
+import { Heading, Image, Flex, Text } from "@chakra-ui/react";
 
 export default function Page() {
     return (

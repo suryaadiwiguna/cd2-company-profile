@@ -12,11 +12,11 @@ export default function C_CardProduct({ title, image, ctaLabel, ctaURL, textCtaL
                     <Divider />
                     <Box width={'full'}>
                         {ctaLabel && ctaURL &&
-                            <Link href={ctaURL}>
+                            <Link href={ctaURL} alt="">
                                 <Button bg={'#FF7757'} w={'full'} color={'white'} textTransform={'capitalize'}>{ctaLabel}</Button>
                             </Link>}
                         {textCtaLabel && textCtaURL &&
-                            <Link href={textCtaURL}>
+                            <Link href={textCtaURL} alt="">
                                 <Text mt={'10px'} color={'#FF7757'} fontStyle={'italic'} > {textCtaLabel} &rarr;</Text>
                             </Link>}
                     </Box>

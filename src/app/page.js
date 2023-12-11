@@ -1,5 +1,5 @@
 import C_EmbedVideo from "@/components/layout/C_EmbedVideo";
-import Hero from "@/components/Hero";
+import Hero from "@/components/layout/Hero";
 import C_Card from "@/components/card/C_Card";
 import C_Container from "@/components/layout/C_Container";
 import C_Section from "@/components/layout/C_Section";
@@ -53,7 +53,7 @@ export default function Home() {
               ctaLabel={'Learn more'}
               ctaURL={'/about-us'}
             />
-            <C_EmbedVideo videoURL={'https://www.youtube.com/embed/xLTCivIB4kU?si=zUSk0_vXKte-TV7W'} />
+            <C_EmbedVideo videoURL={'xLTCivIB4kU'} />
           </Flex>
           <Flex bg={'transparent'} direction={{ base: 'column', md: 'row' }} gap={{ base: '1em', lg: '10em' }}>
             <C_Card

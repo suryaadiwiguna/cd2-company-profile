@@ -1,4 +1,4 @@
-import C_Footer from '@/components/C_Footer'
+import C_Footer from '@/components/layout/C_Footer'
 import './globals.css'
 import { Providers } from './providers'
 import Navbar from '@/components/navbar/Navbar'
@@ -11,9 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-      // style={{ "background-color": "gray" }}
-      >
+      <body>
         <Providers>
           <Navbar />
           {children}

@@ -1,7 +1,7 @@
 import { Box, Flex, Image, Text, UnorderedList, ListItem } from "@chakra-ui/react"
 import Link from "next/link"
-import C_Section from "./layout/C_Section"
-import C_Container from "./layout/C_Container"
+import C_Section from "./C_Section"
+import C_Container from "./C_Container"
 
 export default function C_Footer() {
     return (
@@ -15,25 +15,25 @@ export default function C_Footer() {
                     <Box>
                         <Text fontWeight={'600'}>Company</Text>
                         <UnorderedList listStyleType={'none'}>
-                            <ListItem><Link href='/about-us'>About</Link></ListItem>
-                            <ListItem><Link href='/products-services'>Products & Services</Link></ListItem>
-                            <ListItem><Link href='/products-services'>Teams</Link></ListItem>
+                            <ListItem><Link href='/about-us' alt="">About</Link></ListItem>
+                            <ListItem><Link href='/products-services' alt="">Products & Services</Link></ListItem>
+                            <ListItem><Link href='/products-services' alt="">Teams</Link></ListItem>
                         </UnorderedList>
                     </Box>
                     <Box>
                         <Text fontWeight={'600'}>Shop</Text>
                         <UnorderedList listStyleType={'none'}>
-                            <ListItem><Link href='https://www.amazon.com'>Amazon</Link></ListItem>
-                            <ListItem><Link href='/https://www.tokopedia.com'>Tokopedia</Link></ListItem>
-                            <ListItem><Link href='/https://www.shopee.com'>Shopee</Link></ListItem>
+                            <ListItem><Link href='https://www.amazon.com' alt="">Amazon</Link></ListItem>
+                            <ListItem><Link href='/https://www.tokopedia.com' alt="">Tokopedia</Link></ListItem>
+                            <ListItem><Link href='/https://www.shopee.com' alt="">Shopee</Link></ListItem>
                         </UnorderedList>
                     </Box>
                     <Box>
                         <Text fontWeight={'600'}>Social Media</Text>
                         <UnorderedList listStyleType={'none'}>
-                            <ListItem><Link href='https://www.instagram.com'>Instagram</Link></ListItem>
-                            <ListItem><Link href='https://www.youtube.com'>YouTube</Link></ListItem>
-                            <ListItem><Link href='https://www.facebook.com'>Facebook</Link></ListItem>
+                            <ListItem><Link href='https://www.instagram.com' alt="">Instagram</Link></ListItem>
+                            <ListItem><Link href='https://www.youtube.com' alt="">YouTube</Link></ListItem>
+                            <ListItem><Link href='https://www.facebook.com' alt="">Facebook</Link></ListItem>
                         </UnorderedList>
                     </Box>
                 </Flex>

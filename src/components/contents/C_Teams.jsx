@@ -33,9 +33,9 @@ export default async function C_Teams() {
                         <Text> {team.fields.briefDescription} </Text>
                         <Divider />
                         <Flex fontStyle={'italic'} gap={'10px'} justify={'center'}>
-                            <Link href={'#'}> Instagram </Link>
+                            <Link href={'#'} alt=""> Instagram </Link>
                             <span>&#8226;</span>
-                            <Link href={'#'}> Twitter </Link>
+                            <Link href={'#'} alt=""> Twitter </Link>
                         </Flex>
                     </Flex>
 

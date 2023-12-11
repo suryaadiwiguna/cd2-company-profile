@@ -18,7 +18,7 @@ export default function Hero(props) {
                     {ctaButtonLabel && (
                         <Box zIndex={2}>
                             <Box w={'fit-content'} bg={'#FF7757'} h={'fit'} borderRadius={'10px'} >
-                                <Link href='/products-services'>
+                                <Link href='/products-services' alt="">
                                     <Flex justify={'space-between'} gap={3} mx={5} py={15} alignItems={'center'}>
                                         <Heading fontSize={'medium'}>
                                             {ctaButtonLabel}

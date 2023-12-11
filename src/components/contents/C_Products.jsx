@@ -31,7 +31,7 @@ export default async function C_Products() {
                                     <ListItem>Facility: {product.fields?.facility}</ListItem>
                                 </UnorderedList>
                                 <Box>
-                                    <Link href={'https://calendly.com/suryaadiwiguna/travellian-tour-consultation'}>
+                                    <Link href={'https://calendly.com/suryaadiwiguna/travellian-tour-consultation'} alt="">
                                         <Button w={{ base: 'full', md: 'inherit' }} bg={'#FF7757'} textColor={'white'} px={{ md: '50px' }} colorScheme={'orange'}>
                                             Book A Call
                                         </Button>

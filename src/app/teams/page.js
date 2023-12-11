@@ -1,4 +1,4 @@
-import Hero from "@/components/Hero"
+import Hero from "@/components/layout/Hero"
 import C_Teams from "@/components/contents/C_Teams"
 import C_Container from "@/components/layout/C_Container"
 import C_Section from "@/components/layout/C_Section"
