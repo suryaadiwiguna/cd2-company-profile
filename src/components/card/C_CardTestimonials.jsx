@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-export default function C_CardPerson({ data }) {
+export default function C_CardTestimonials({ data }) {
 
     const settings = {
         dots: true,

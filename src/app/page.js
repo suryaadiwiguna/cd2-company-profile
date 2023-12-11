@@ -5,7 +5,7 @@ import C_Container from "@/components/layout/C_Container";
 import C_Section from "@/components/layout/C_Section";
 import { Flex, Heading, Box } from "@chakra-ui/react";
 import C_CardProduct from "@/components/card/C_CardProduct";
-import C_CardPerson from "@/components/card/C_CardPerson";
+import C_CardTestimonials from "@/components/card/C_CardTestimonials";
 
 
 
@@ -99,7 +99,7 @@ export default function Home() {
       <C_Container bgColor={'gray'}>
         <C_Section>
           <Heading textAlign={'center'} mt={'1rem'}>Testimonials</Heading>
-          <C_CardPerson data={data} />
+          <C_CardTestimonials data={data} />
           <Box mb={'6rem'}></Box>
         </C_Section>
       </C_Container>
