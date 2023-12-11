@@ -22,7 +22,7 @@ export default function C_CardTestimonials({ data }) {
             <Box py={'1rem'}>
                 <Slider {...settings}>
                     {data.map((data, index) => (
-                        <Box key={index} borderRadius={'15px'} bgColor={'white'} borderColor={'gray.100'} borderWidth={'1px'} >
+                        <Box key={index} borderRadius={'15px'} bgColor={'white'} borderColor={'gray.100'} borderWidth={'1px'} cursor={'grab'}>
                             <Flex p={'1em'} h={'240px'} align={'center'} justify={'center'}>
                                 <Image alt="" src={data.profileImg} borderRadius={'50%'} objectFit={'cover'} aspectRatio={1 / 1} maxH={'180px'} />
                             </Flex>
