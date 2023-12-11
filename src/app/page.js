@@ -12,7 +12,7 @@ import C_CardPerson from "@/components/card/C_CardPerson";
 const data = [
   {
     name: 'Surya Adi Wiguna',
-    profileImg: '/img/teams.jpg',
+    profileImg: '/img/customers/customer2.jpg',
     origin: {
       city: 'Sukabumi',
       country: 'Indonesia'
@@ -23,7 +23,7 @@ const data = [
   },
   {
     name: 'John Doe',
-    profileImg: '/img/teams.jpg',
+    profileImg: '/img/customers/customer1.jpg',
     origin: {
       city: 'Hanoi',
       country: 'Vietnam'
